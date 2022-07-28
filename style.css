@@ -54,47 +54,192 @@ nav ul {
 .footer{
     display: flex;
     justify-content: center;
+    background-color: rgb(224, 249, 255);
 
+}
+
+.footer >div {
+    margin-top: 2vh;
 }
 
 .river{
     width: 15%;
-    background-color: aqua;
+    background-color:  rgb(224, 249, 255);;
     height: 1000px;
     position: relative;
 }
-
+.rivertext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .rivertext > div {
     margin-top: 4vh;
     text-align: center;
-
-    
-
+    font-family: 'Apple Chancery';
 }
 
 .articles {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: stretch;
     flex-grow: 1;
 }
 
+.articles > div {
+    margin: 2vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    border: 0.25vh;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat";
+    font-size: medium;
+}
+
+.articles >div >div {
+    margin: 1vh;
+}
 
 .boat{
     position: absolute;
     transform: translate(0, calc(1vh*var(--scrollpos)));
     width: 100%;
     height: calc(100% - 1%*var(--scrollpos));
-    background-color: aqua;
+    background-color:  rgb(224, 249, 255);;
     overflow: hidden;
 }
 
 .inner-boat{
-    transform: rotate(180deg) translate(25%, 0);
+    transform: rotate(180deg) translate(15%, 0);
 }
 
 #boatpng{
     height: 7vw;
     width: auto;
 }
+
+.portrait {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    width: 20vh;
+}
+
+figcaption {
+    color: black;
+    font: italic smaller sans-serif;
+    text-align: center;
+}
+
+.window-container{
+    height: 30%;
+    width: 30%;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.top-window{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-window{
+    width: 20vh;
+    height: 5vh;
+    background-color: #deb887;
+    clip-path: polygon(15% 0%, 85% 0%, 100% 100%, 0% 100%);
+}
+
+.window-container:hover .outter-shutters {
+    visibility: visible;
+}
+
+.window-container:hover .inner-shutters {
+    visibility: hidden;
+}
+
+.inner-shutters{
+    visibility: visible;
+}
+.outter-shutters{
+    visibility: hidden;
+}
+
+.left-shutter-outter{
+    height: 30vh;
+    width: 10vh;
+    clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
+    background-color: black;
+    position: relative;
+}
+.left-shutter-outter:before {
+    position: absolute;
+    content: '';
+    height: 29vh;
+    width: 9vh;
+    clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
+    background: white;
+    display: block;
+    top: 2px;
+    left: 2px;
+  }
+
+.project-window{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.proj-window-top{
+    height: 20vh;
+    width: 20vh;
+    margin-top: 5vh;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.right-shutter-outter{
+    height: 30vh;
+    width: 10vh;
+    clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 85%);
+    background-color: black;
+    position: relative;
+}
+.right-shutter-outter:before {
+    position: absolute;
+    content: '';
+    height: 29vh;
+    width: 9vh;
+    clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 85%);
+    background: white;
+    display: block;
+    top: 2px;
+    left: 2px;
+  }
+
+  .left-shutter-inner, .right-shutter-inner{
+      width: 50%;
+      height: 100%;
+      background-color: white;
+      border-style: solid;
+      border-color: black;
+  }
+
+  .project-lists{
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 10%;
+      align-items: center;
+      justify-content: space-between;
+      display: flex;
+      flex-wrap: wrap;
+  }
