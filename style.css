@@ -114,11 +114,15 @@ nav div {
 }
 
 .inner-boat{
-    transform: rotate(180deg) translate(0, 0);
+    display: flex;
+    justify-content: center ;
+
 }
 
+
+
 #boatpng{
-    width: 7vmin;
+    width: 75%;
 }
 
 .portrait {
@@ -242,8 +246,8 @@ figcaption {
   }
 
   .project-lists{
-      margin-left: 10%;
-      margin-right: 10%;
+      margin-left: 20%;
+      margin-right: 20%;
       margin-top: 10%;
       align-items: center;
       justify-content: space-around;
