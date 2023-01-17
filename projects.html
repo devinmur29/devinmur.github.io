@@ -14,16 +14,19 @@
 <body>
     <header>
 		<div id="logo">Devin dot com</div>
-		<nav>  
-            <div>
-                <li><a href="./index.html">home</a></li>
-                <li><a href="./blogs.html">blogs</a></li>
-                <li><a href = "./projects.html">projects</a></li>
-                <li>about</li>
-            </div>      
-		</nav>
-	</header>
-    <div class="project-lists">
-    </div>
+		<div id ="navBar"></div>
+    </header>
+    <div class="project-lists"></div>
+
+
+
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React components. -->
+  <script src="src/nav.js"></script>
+  <script src="src/projLists.js"></script>
 </body>
-<script src="./scripts/projLists.js"></script>

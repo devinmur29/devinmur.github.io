@@ -16,14 +16,8 @@
 <body>
     <header>
 		<div id="logo">Devin dot com</div>
-		<nav>  
-            <div>
-                <li><a href="./index.html">home</a></li>
-                <li><a href="./blogs.html">blogs</a></li>
-                <li><a href = "./projects.html">projects</a></li>
-                <li>about</li>
-            </div>      
-		</nav>
+        <div id="navBar"></div>
+		
 	</header>
     <div class="main">
         <div class="river">
@@ -75,7 +69,7 @@
             
         </div>
         <div class="articles">
-            <div> 
+            <div class="intro"> 
                 <div>
                     <div class="portrait">
                         <img src="assets/devportrait.jpg"
@@ -84,13 +78,13 @@
                     </div>
                 </div>  
                 <div>
-                    Hey! Thanks for stopping by :) I'm Devin, I'm 22 years old and I'm currently living in Boston, Massachusetts.
+                    Hey! Thanks for stopping by :) I'm Devin.
                     If you poke around here I hope you can find out some more about me, but just to get you started:
                 </div>
 
             </div>
-            <div>
-                Content I'm Absorbing
+            <div class="content">
+                <h1>Stuff I'm Doing</h1>
                 <div>
                     Watching
                 </div>
@@ -104,8 +98,16 @@
             
         </div>
     </div>
+    <div id="like_button_container"></div>
     <div class="footer">
         <div id="hands"><a href="https://gossipsweb.net"><img src="https://gossipsweb.net/images/twwmwh-gray.jpg" alt="This website was made with hands." style="height: 43px; border: 1px solid #000;" /></a></div>
     </div>
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="src/nav.js"></script>
 </body>
-<script src="scripts/boat.js"></script>
+<script src="src/boat.js"></script>

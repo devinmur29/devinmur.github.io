@@ -60,7 +60,7 @@ nav div {
 }
 
 .river{
-    width: 20%;
+    width: 15%;
     background-color: rgb(224, 249, 255);
     height: 1000px;
     position: relative;
@@ -86,7 +86,7 @@ nav div {
     max-width: 100%;
 }
 
-.articles > div {
+.intro {
     margin: 2vh;
     margin-left: 10vw;
     margin-right: 10vw;
@@ -275,6 +275,20 @@ figcaption {
     background-color: magenta;
     height: 95%;
     z-index: 1;
+}
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border: 0.25vh;
+    border-style: solid;
+    max-width: 75%;
+
 }
 
   @media screen and (max-width: 500px) {
