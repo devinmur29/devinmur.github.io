@@ -7,6 +7,9 @@ projList = [["Membranas", "membranas"],
 ["Thereminator","therminator"], 
 ["Fidget Spinner","fidget-spinner"]];
 
+
+
+
 listElem = document.getElementsByClassName("project-lists")[0];
 for (var projName in projList){
     newDiv = document.createElement('div');

@@ -1,14 +1,14 @@
 import ReactMarkdown from 'https://cdn.skypack.dev/react-markdown';
 
-class Terms extends React.Component {
+class MdBox extends React.Component {
   constructor(props) {
     super(props)
-
+    console.log(this.props)
     this.state = { terms: null }
   }
 
-  componentWillMount() {
-    let mrk = new Request('./membranas.md');
+  componentDidMount() {
+    let mrk = new Request('./../projects/'+this.props.mdFile+'/'+this.props.mdFile+'.md');
 
     fetch(mrk).then((response) => response.text()).then((text) => {
       this.setState({ terms: text })
@@ -17,11 +17,11 @@ class Terms extends React.Component {
 
   render() {
     return (
-      <div className="content">
+      <div class="content">
         <ReactMarkdown children={this.state.terms} />
       </div>
     )
   }
 }
 
-export default Terms;
+export default MdBox;

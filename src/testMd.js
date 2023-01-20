@@ -8,24 +8,25 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 import ReactMarkdown from 'https://cdn.skypack.dev/react-markdown';
 
-var Terms = function (_React$Component) {
-  _inherits(Terms, _React$Component);
+var MdBox = function (_React$Component) {
+  _inherits(MdBox, _React$Component);
 
-  function Terms(props) {
-    _classCallCheck(this, Terms);
+  function MdBox(props) {
+    _classCallCheck(this, MdBox);
 
-    var _this = _possibleConstructorReturn(this, (Terms.__proto__ || Object.getPrototypeOf(Terms)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (MdBox.__proto__ || Object.getPrototypeOf(MdBox)).call(this, props));
 
+    console.log(_this.props);
     _this.state = { terms: null };
     return _this;
   }
 
-  _createClass(Terms, [{
-    key: 'componentWillMount',
-    value: function componentWillMount() {
+  _createClass(MdBox, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
       var _this2 = this;
 
-      var mrk = new Request('./membranas.md');
+      var mrk = new Request('./../projects/' + this.props.mdFile + '/' + this.props.mdFile + '.md');
 
       fetch(mrk).then(function (response) {
         return response.text();
@@ -38,13 +39,13 @@ var Terms = function (_React$Component) {
     value: function render() {
       return React.createElement(
         'div',
-        { className: 'content' },
+        { 'class': 'content' },
         React.createElement(ReactMarkdown, { children: this.state.terms })
       );
     }
   }]);
 
-  return Terms;
+  return MdBox;
 }(React.Component);
 
-export default Terms;
+export default MdBox;

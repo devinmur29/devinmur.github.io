@@ -1,6 +1,6 @@
 'use strict';
 
-class LikeButton extends React.Component {
+class NavBar extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -20,4 +20,4 @@ class LikeButton extends React.Component {
 }
 
 let domContainer = document.querySelector('#navBar');
-ReactDOM.render(<LikeButton />, domContainer);
+ReactDOM.render(<NavBar />, domContainer);

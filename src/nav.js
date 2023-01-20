@@ -8,16 +8,16 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var LikeButton = function (_React$Component) {
-  _inherits(LikeButton, _React$Component);
+var NavBar = function (_React$Component) {
+  _inherits(NavBar, _React$Component);
 
-  function LikeButton(props) {
-    _classCallCheck(this, LikeButton);
+  function NavBar(props) {
+    _classCallCheck(this, NavBar);
 
-    return _possibleConstructorReturn(this, (LikeButton.__proto__ || Object.getPrototypeOf(LikeButton)).call(this, props));
+    return _possibleConstructorReturn(this, (NavBar.__proto__ || Object.getPrototypeOf(NavBar)).call(this, props));
   }
 
-  _createClass(LikeButton, [{
+  _createClass(NavBar, [{
     key: "render",
     value: function render() {
       return React.createElement(
@@ -63,8 +63,8 @@ var LikeButton = function (_React$Component) {
     }
   }]);
 
-  return LikeButton;
+  return NavBar;
 }(React.Component);
 
 var domContainer = document.querySelector('#navBar');
-ReactDOM.render(React.createElement(LikeButton, null), domContainer);
+ReactDOM.render(React.createElement(NavBar, null), domContainer);
