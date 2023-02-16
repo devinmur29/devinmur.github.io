@@ -1,4 +1,5 @@
 'use strict';
+import React from "react";
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -19,5 +20,4 @@ class NavBar extends React.Component {
   }
 }
 
-let domContainer = document.querySelector('#navBar');
-ReactDOM.render(<NavBar />, domContainer);
+export default NavBar;

@@ -1,4 +1,4 @@
-import ReactMarkdown from 'https://cdn.skypack.dev/react-markdown';
+import ReactMarkdown from 'react-markdown';
 
 class MdBox extends React.Component {
   constructor(props) {
@@ -9,8 +9,9 @@ class MdBox extends React.Component {
 
   componentDidMount() {
     let mrk = new Request('./../projects/'+this.props.mdFile+'/'+this.props.mdFile+'.md');
-
+    console.log(mrk)
     fetch(mrk).then((response) => response.text()).then((text) => {
+      console.log(text)
       this.setState({ terms: text })
     })
   }

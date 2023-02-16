@@ -19,8 +19,7 @@ const ProjPage = () => (
                                 <div class="proj-window-top">
                                     <div class="left-shutter-inner inner-shutters"></div>
                                     <div class="right-shutter-inner inner-shutters"></div>
-                                    <div class="projimg"><img src="./projects/${projList[projName][1]}/${projList[projName][1]}.png"
-                                    alt="pic of me!"/></div>
+                                    <div class="projimg"><img src="./projects/membranas/membranas.png" alt="pic of me!"/></div>
                                 </div>
                                 <div class="bottom-window"></div>
                 
