@@ -10,9 +10,9 @@ class NavBar extends React.Component {
     return (
         <nav>  
         <div>
-            <li><a href="./index.html">home</a></li>
-            <li><a href="./blogs.html">blogs</a></li>
-            <li><a href = "./projects.html">projects</a></li>
+            <li><a href="./../index.html">home</a></li>
+            <li><a href="./../blogs.html">blogs</a></li>
+            <li><a href = "./../projects.html">projects</a></li>
             <li>about</li>
         </div>      
     </nav>

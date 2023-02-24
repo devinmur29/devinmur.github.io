@@ -1,4 +1,5 @@
 import ReactMarkdown from 'react-markdown';
+import React from 'react';
 
 class MdBox extends React.Component {
   constructor(props) {
@@ -8,7 +9,7 @@ class MdBox extends React.Component {
   }
 
   componentDidMount() {
-    let mrk = new Request('./../projects/'+this.props.mdFile+'/'+this.props.mdFile+'.md');
+    let mrk = new Request('./'+this.props.mdFile+'.md');
     console.log(mrk)
     fetch(mrk).then((response) => response.text()).then((text) => {
       console.log(text)

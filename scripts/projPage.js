@@ -1,38 +1,27 @@
 'use strict';
-
+import React from "react";
 import MdBox from './testMd.js';
+import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
+import Layout from './layout.js';
 
-const Link = ReactRouterDOM.Link;
-const Route = ReactRouterDOM.Route;
-const Switch = ReactRouterDOM.Switch
 
-const ProjPage = () => (
-    <ReactRouterDOM.HashRouter>
-        <Switch>
-        <Route exact path="/">
-                <div class = "window-container">
-                    <div class="projName"><Link to="/membranas">Membranas</Link></div>
-                        <div class = "top-window">
-                            <div class="left-shutter-outter outter-shutters">
-                            </div>
-                            <div class="project-window">
-                                <div class="proj-window-top">
-                                    <div class="left-shutter-inner inner-shutters"></div>
-                                    <div class="right-shutter-inner inner-shutters"></div>
-                                    <div class="projimg"><img src="./projects/membranas/membranas.png" alt="pic of me!"/></div>
-                                </div>
-                                <div class="bottom-window"></div>
-                
-                            </div>
-                            <div class="right-shutter-outter outter-shutters">
-                            </div>
-                        </div>
-                </div>
-            </Route>
-            <Route path="/membranas"><MdBox mdFile="membranas"/></Route>
-        </Switch>
-    </ReactRouterDOM.HashRouter>
-)
+class ProjPage extends React.Component {
+    constructor(props) {
+        super(props);
+      }
+    
+    render() {
+        return (
+            <BrowserRouter>
+                <Routes>
+                <Route path="/projects.html/" element={<Layout />}></Route>
+                <Route path="/membranas" element={<MdBox mdFile="membranas"/>}></Route>
 
-let domContainer = document.getElementsByClassName("project-lists")[0];
-ReactDOM.render(<ProjPage />, domContainer);
+                </Routes>
+            </BrowserRouter>
+        );
+      }
+
+}
+    
+export default ProjPage;
