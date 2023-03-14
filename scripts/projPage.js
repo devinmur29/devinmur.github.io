@@ -12,6 +12,7 @@ class ProjPage extends React.Component {
     
     render() {
         return (
+            
             <BrowserRouter>
                 <Routes>
                 <Route path="/projects.html/" element={<Layout />}></Route>
