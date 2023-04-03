@@ -288,6 +288,7 @@ figcaption {
     border: 0.25vh;
     border-style: solid;
     max-width: 75%;
+    padding: 1%;
 
 }
 

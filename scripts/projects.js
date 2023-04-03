@@ -6,8 +6,6 @@ let domContainer = document.querySelector('#navBar');
 const root = createRoot(domContainer);
 root.render(<NavBar />);
 
-let domContainer2 = document.getElementsByClassName("project-lists")[0];
+let domContainer2 = document.getElementsByClassName("projectLanding")[0];
 const root2 = createRoot(domContainer2);
 root2.render(<ProjPage />);
-
-console.log('Hello World');

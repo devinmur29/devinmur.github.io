@@ -22,7 +22,7 @@ class Layout extends React.Component {
                                         <div class="proj-window-top">
                                             <div class="left-shutter-inner inner-shutters"></div>
                                             <div class="right-shutter-inner inner-shutters"></div>
-                                            <div class="projimg"><img src="./projects/membranas/membranas.png" alt="pic of me!" /></div>
+                                            <div class="projimg"><img src={`./${project.id}/${project.id}.png`} alt="project picture" /></div>
                                         </div>
                                         <div class="bottom-window"></div>
 

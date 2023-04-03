@@ -9,7 +9,7 @@ class MdBox extends React.Component {
   }
 
   componentDidMount() {
-    let mrk = new Request('./'+this.props.mdFile+'.md');
+    let mrk = new Request('./'+this.props.mdFile);
     console.log(mrk)
     fetch(mrk).then((response) => response.text()).then((text) => {
       console.log(text)
