@@ -1,5 +1,6 @@
 import ReactMarkdown from 'react-markdown';
 import React from 'react';
+import rehypeRaw from 'rehype-raw';
 
 class MdBox extends React.Component {
   constructor(props) {
@@ -20,7 +21,7 @@ class MdBox extends React.Component {
   render() {
     return (
       <div class="content">
-        <ReactMarkdown children={this.state.terms} />
+        <ReactMarkdown children={this.state.terms} rehypePlugins={[rehypeRaw]}/>
       </div>
     )
   }

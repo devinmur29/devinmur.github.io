@@ -62,6 +62,8 @@ nav div {
 .river{
     width: 15%;
     background-color: rgb(224, 249, 255);
+    background-image: url('./rive_inner.png');
+    background-size: 97%;
     height: 1000px;
     position: relative;
 
@@ -105,11 +107,11 @@ nav div {
 
 .boat{
     position: absolute;
-    transform: translate(0, calc(1vh*var(--scrollpos)));
-    width: 50%;
+    transform: translate(0, calc(1.3vh*var(--scrollpos)));
+    width: 45%;
     left: 25%;
-    height: calc(100% - 1%*var(--scrollpos));
-    background-color:  rgb(224, 249, 255);;
+    height:50px;
+    background-color: #5cebf5;
     overflow: hidden;
 }
 
@@ -246,14 +248,15 @@ figcaption {
   }
 
   .project-lists{
-      margin-left: 10%;
-      margin-right: 10%;
+      margin-left: 20%;
+      margin-right: 20%;
       margin-top: 5%;
       align-items: center;
       justify-content: space-around;
       display: flex;
       flex-wrap: wrap;
       gap: 2vmin;
+      max-width: 75%;
   }
 
   .projName{
@@ -290,6 +293,14 @@ figcaption {
     max-width: 75%;
     padding: 1%;
 
+}
+
+.content>div>img{
+    max-width: 75%;
+}
+
+.content>div{
+    text-align: center;
 }
 
   @media screen and (max-width: 500px) {
