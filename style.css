@@ -16,7 +16,7 @@ body{
 }
 header {
     background: rgb(224, 249, 255);
-    padding-top: 30px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -60,12 +60,12 @@ nav div {
 }
 
 .river{
-    width: 10%;
+    width: 17%;
     background-color: rgb(224, 249, 255);
     background-image: url('./rive_inner.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 1500px;
     position: relative;
 
 }
@@ -100,7 +100,24 @@ nav div {
     font-family: "Montserrat";
     font-size: medium;
     max-width: 75%;
+    padding: 1%;
 }
+
+#introText {
+    height: fit-content;
+    text-align: center;
+    font-size: large;
+
+}
+
+#introTextContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
 
 .articles >div >div {
     margin: 1vh;
@@ -108,7 +125,7 @@ nav div {
 
 .boat{
     position: absolute;
-    transform: translate(0, min(900px, calc(1.3vh*var(--scrollpos))));
+    transform: translate(0, min(1300px, calc(1.5vh*var(--scrollpos))));
     width: 45%;
     left: 25%;
     height:50px;
@@ -139,6 +156,7 @@ figcaption {
     color: black;
     font: italic smaller sans-serif;
     text-align: center;
+    font-size: small;
 }
 
 .window-container{

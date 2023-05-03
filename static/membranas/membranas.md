@@ -8,7 +8,7 @@
 </div>
 
 
-When I started working with Nicole on this project, we talked about using an element of the sculpture to record the wind and present it in a sonically enhanced yet authentic way. Wind sort of takes on the sound of whatever its interacting with, and it seemed like the perfect medium to help us facilitate a conversation between people and the environment. It was important to us that this communication occured in the ***wind's language***, that is, in way that felt true to the wind's voice. 
+When I started working with Nicole on this project, we talked about using an element of the sculpture to record the wind and present it in a sonically enhanced yet authentic way. Wind sort of takes on the sound of whatever its interacting with, and it seemed like the perfect medium to help us facilitate a conversation between people and the environment. It was important to us that this communication occured in the ***wind's language***, that is, in a way that felt true to the wind's voice. 
 
 Nicole made an initial attempt at this using contact microphones in a silicone membrane. We listened to the audio recorded using these microphones together and determined that it was picking up wind in the way lots of other microphones do: as a sort of "white noise" that doesn't have much character or liveliness in it. Additionally, the contact microphones recorded a lot of things that weren't the wind, like birds chirping or lawn mowers. We thought we could do better.
 
