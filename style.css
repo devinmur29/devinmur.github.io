@@ -294,8 +294,9 @@ figcaption {
   }
   .projimg>img{
     position: absolute;
-    background-color: magenta;
+    object-fit: contain;
     height: 95%;
+    width: 90%;
     z-index: 1;
 }
 
@@ -314,11 +315,19 @@ figcaption {
 
 }
 
+.content>figure>img{
+    max-width: 75%;
+}
+
 .content>div>img{
     max-width: 75%;
 }
 
 .content>div{
+    text-align: center;
+}
+
+.content>figure{
     text-align: center;
 }
 

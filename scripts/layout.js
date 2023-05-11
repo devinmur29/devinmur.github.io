@@ -13,7 +13,7 @@ class Layout extends React.Component {
         return (
             <div class="project-lists">
                 {projects.map(function(project, idx){
-                     return (<div class="window-container">
+                     return (<div class="window-container" key={idx}>
                                 <div class="projName"><Link to={`/${project.id}`}>{project.title}</Link></div>
                                 <div class="top-window">
                                     <div class="left-shutter-outter outter-shutters">
