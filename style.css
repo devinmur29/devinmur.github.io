@@ -159,14 +159,23 @@ figcaption {
     font-size: small;
 }
 
-.window-container{
-    height: 35vmin;
-    width: 35vmin;
-    background-color: lightgrey;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#svgContainer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 
+#elements{
+    transform: translateY(-60px);
+}
+
+.window-container{
+    height: 43vmin;
+    width: calc(33.33% - 10px);
+    background-color: #d3d3d3;
+    flex-direction: column;
+    justify-content: top;
+    display: flex;
 }
 
 .top-window{
@@ -183,14 +192,6 @@ figcaption {
     height: 5vmin;
     background-color: #deb887;
     clip-path: polygon(15% 0%, 85% 0%, 100% 100%, 0% 100%);
-}
-
-.window-container:hover .outter-shutters {
-    visibility: visible;
-}
-
-.window-container:hover .inner-shutters {
-    visibility: hidden;
 }
 
 .inner-shutters{
@@ -267,15 +268,15 @@ figcaption {
   }
 
   .project-lists{
-      margin-left: 20%;
-      margin-right: 20%;
-      margin-top: 5%;
-      align-items: center;
-      justify-content: space-around;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2vmin;
-      max-width: 75%;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2vmin;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
   }
 
   .projName{
@@ -285,19 +286,25 @@ figcaption {
   }
   .projimg{
       position: absolute;
-      height: 15vmin;
-      width: 20vmin;
+      height: 20vmin;
+      width: 25vmin;
       display: flex;
-      z-index: 1;
       justify-content: center;
-      
+      z-index: 1;
+      top: 50%; /* Center vertically by moving 50% from the top */
+      left: 50%; /* Center horizontally by moving 50% from the left */
+      transform: translate(-50%, -70%);
   }
   .projimg>img{
     position: absolute;
     object-fit: contain;
     height: 95%;
     width: 90%;
-    z-index: 1;
+}
+
+.actualSvg{
+    z-index: 2;
+    position: relative;
 }
 
   .content{
@@ -315,6 +322,45 @@ figcaption {
 
 }
 
+.mymediablock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 0.25vh;
+    border-style: solid;
+    max-width: 75%;
+    padding: 1%;
+
+}
+
+.mymedia{
+    height: 20vh;
+    width: 20vw;
+    border: 0.25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emoji {
+    font-size: x-large;
+    display: flex;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    background-color: plum;
+    justify-content: center;
+    align-items: center;
+}
+.projectLanding{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
 .content>figure>img{
     max-width: 75%;
 }

@@ -18,6 +18,7 @@ class ProjPage extends React.Component {
                 <Route path="/projects.html/" element={<Layout />}></Route>
                 <Route path="/membranas" element={<MdBox mdFile="membranas/membranas.md"/>}></Route>
                 <Route path="/forthem" element={<MdBox mdFile="forthem/forthem.md"/>}></Route>
+                <Route path="/campaignspending" element={<MdBox mdFile="campaignspending/campaignspending.md"/>}></Route>
 
                 </Routes>
             </BrowserRouter>
