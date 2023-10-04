@@ -4,7 +4,7 @@
 *Membranas* is a spatial sound sculpture meant to facilitate more than human exchanges.I worked on this project in collaboration with Nicole L'Huillier for her thesis project at the MIT Media Lab. With this work we aimed to explore sounds and vibrations as media for stimulating collectivity, embodied learning, and interconnectivity well beyond the human.
 
 <div>
-<img src="./membranas/membrana_2.jpg" alt="Membrana 1">
+<img src="./../membranas/membrana_2.jpg" alt="Membrana 1">
 </div>
 
 
@@ -15,11 +15,11 @@ Nicole made an initial attempt at this using contact microphones in a silicone m
 I ran a spectrogram analysis and used that to filter the audio from the contact microphones in a variety of ways. I noticed that a lot of the sound we were getting from the wind was both low in frequency and amplitude. 
 
 <div>
-<img src="./membranas/wind_1.png" alt="Time series">
+<img src="./../membranas/wind_1.png" alt="Time series">
 </div>
 
 <div>
-<img src="./membranas/wind_spec.png" alt="Spectrogram">
+<img src="./../membranas/wind_spec.png" alt="Spectrogram">
 </div>
 
 
@@ -37,7 +37,7 @@ In order to turn the accelerometer data into digital audio, I created the follow
 3) Finally. I wrote a Python script to estimate the sampling rate of the accelerometer, scale the received values so that they would be audible, and write the processed data to a WAV file to be sent to different speakers in the sculpture. 
 
 <div>
-<img src="./membranas/accel_process.png" alt="Accel Process">
+<img src="./../membranas/accel_process.png" alt="Accel Process">
 </div>
 
 
@@ -58,11 +58,11 @@ Here are some pictures/videos from the finished sound sculpture! I want to thank
 
 
 <div>
-<img src="./membranas/membrana_1.jpg" alt="Membrana 1">
+<img src="./../membranas/membrana_1.jpg" alt="Membrana 1">
 </div>
 
 <div>
-<img src="./membranas/membrana_3.jpg" alt="Membrana 3">
+<img src="./../membranas/membrana_3.jpg" alt="Membrana 3">
 </div>
 
 

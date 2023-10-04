@@ -14,7 +14,8 @@ class Layout extends React.Component {
             <div className="project-lists">
                 {projects.map(function(project, idx){
                      return (<div className="window-container" key={idx}>
-                                <div className="projName"><Link to={`/${project.id}`}>{project.title}</Link></div>
+                                <div className="projName"><Link to={`/projects.html/${project.id}`}>{project.title}</Link></div>
+                                <div className="projDesc">{project.desc}</div>
                                     <div className="top-window">
                                     <Curtains projid={project.id}></Curtains>
                                     </div>

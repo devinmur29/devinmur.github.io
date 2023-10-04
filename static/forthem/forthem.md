@@ -2,7 +2,7 @@
 For Them is a piece for solo clarinet and live electronics that I composed using MaxMSP and sibelius. The piece is meant to be performed with a live solo clarinet, and either a pedal or person that sends a signal to a Max patch to progress the electronics through each phase of the piece (of which there are 8). In this way, the electronics become their own instrument used to accompany the clarinetist. I created the signal routing and processing pipelines for this piece in Max with the help of the <a href=https://cycling74.com/articles/cnmat-odot-tools-for-osc-and-beyond>odot package</a>.
 
 <figure>
-  <img src="./forthem/forthem.png" alt="Overview of Max Patch">
+  <img src="./../forthem/forthem.png" alt="Overview of Max Patch">
   <figcaption>Max Patch used to control electronics and signal processes in "For Them"</figcaption>
 </figure>
 
@@ -11,12 +11,12 @@ For this project, I really wanted to explore sonification and how data can be re
 I used incidents considered mass shootings by at least two of the following sources: Stanford MSA Data Project, Gun Violence Archive, Mother Jones, The Washington Post, ABC News,FBI, Congressional Research service. I repeat a somber theme over these bars, disrupting the theme with random notes from the 12 semitones. In this way, I also encapsulated some serialist composition techniques. 
 
 <figure>
-  <img src="./forthem/for_them_theme.png" alt="Theme">
+  <img src="./../forthem/for_them_theme.png" alt="Theme">
   <figcaption>The opening and main theme of "For Them"</figcaption>
 </figure>
 
 <figure>
-  <img src="./forthem/for_them_perturbs.png" alt="Perturbs">
+  <img src="./../forthem/for_them_perturbs.png" alt="Perturbs">
   <figcaption>Perturbations of the opening theme, each representing a mass shooting.</figcaption>
 </figure>
  
@@ -29,7 +29,7 @@ The opening theme also features a poem by John Keats, titled “When I Have Fear
 
 
 <figure>
-  <img src="./forthem/bonk_workflow.png" alt="Bonk Workflow">
+  <img src="./../membranas/forthem/bonk_workflow.png" alt="Bonk Workflow">
   <figcaption>Patch showing Bonk to Fm Synthesis workflow</figcaption>
 </figure>
 
@@ -39,21 +39,21 @@ The opening theme also features a poem by John Keats, titled “When I Have Fear
 The end of the piece features a harmonization of the theme and is mostly a representation of my own frustration and exhaustion with gun violence. I tried to communicate these two emotions with a lax tempo, glissandos, trills, and the minor third harmonizations. 
 
 <figure>
-  <img src="./forthem/for_them_trem.png" alt="Harmonizations and Tremolos">
+  <img src="./../forthem/for_them_trem.png" alt="Harmonizations and Tremolos">
   <figcaption>Glissandos, trills, harmonizations</figcaption>
 </figure>
 
 I was incredibly grateful to have For Them performed by principal clarinetist of the Boston Philharmonic Rane Moore as a final project presentation. Here's a recording of that performance:
 
 <audio controls>
-  <source src="./forthem/for_them_audio.wav" type="audio/wav" />
+  <source src="./../forthem/for_them_audio.wav" type="audio/wav" />
   <p>
-    Download <a href="./forthem/for_them_audio.wav">WAV</a> audio.
+    Download <a href="./../forthem/for_them_audio.wav">WAV</a> audio.
   </p>
 </audio>
 
 
 And the clarinet sheet music/max patch can be downloaded here: 
 
- <object data="./forthem/for_them.pdf" type="application/pdf" width="75%" height="500px">
-      <p>Unable to display PDF file. <a href="./forthem/for_them.pdf">Download</a> instead.</p>
+ <object data="./../forthem/for_them.pdf" type="application/pdf" width="75%" height="500px">
+      <p>Unable to display PDF file. <a href="./../forthem/for_them.pdf">Download</a> instead.</p>

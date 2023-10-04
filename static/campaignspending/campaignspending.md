@@ -19,7 +19,7 @@ For the project, we specifically focused on data for candidates for the US House
 After running a principal component analysis and using the top principal components in our k-means clustering algorithm, we identified 7 distinct spending clusters. 
 
 <figure>
-  <img src="./campaignspending/pca_analysis.png" alt="Result of K Means Clustering">
+  <img src="./../campaignspending/pca_analysis.png" alt="Result of K Means Clustering">
   <figcaption>Candidate campaigns grouped by K Means Clustering</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ After running a principal component analysis and using the top principal compone
 To see what variables from our data set characterized these clusters, we ran a difference in means analysis of the spending, candidate, and district variables between each cluster and the overall data. Here is a chart displaying some of the defining characteristics for each of the identified spending clusters. Of particular interest to us were clusters 1, 5, and 6, as they seemed most distinct from the other clusters on the basis of these first two principal components. 
 
 <figure>
-  <img src="./campaignspending/cluster_chars.png" alt="Cluster Characteristics Chart">
+  <img src="./../campaignspending/cluster_chars.png" alt="Cluster Characteristics Chart">
   <figcaption>Charateristics of the 7 identified clusters</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ To determine if spending according to a strategy defined by any of the clusters 
 To calculate the ATE, we  used an OLS regression of vote share on the treatment variables for each cluster. Shown below are the 95% confidence interval for the Beta term of the linear regression for both unmatched and matched candidates by cluster. 
 
 <figure>
-  <img src="./campaignspending/ATEs.png" alt="Average Treatment Effect">
+  <img src="./../campaignspending/ATEs.png" alt="Average Treatment Effect">
   <figcaption>Average Treatment Effects for the 7 spending clusters we identified</figcaption>
 </figure>
 
@@ -54,5 +54,5 @@ This was a really cool project, I liked being able to work with real world data 
 
 Here's the poster we presented for our research:
 
- <object data="./campaignspending/spending_poster.pdf" type="application/pdf" width="75%" height="500px">
-      <p>Unable to display PDF file. <a href="./campaignspending/spending_poster.pdf">Download</a> instead.</p>
+ <object data="./../campaignspending/spending_poster.pdf" type="application/pdf" width="75%" height="500px">
+      <p>Unable to display PDF file. <a href="./../campaignspending/spending_poster.pdf">Download</a> instead.</p>
