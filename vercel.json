@@ -1,12 +1,16 @@
 {
     "rewrites": [
-      {
-        "source": "/projects.html/([^\\.]+)$",
-        "destination": "/projects.html"
-      },
-      {
-        "source": "/(.*)",
-        "destination": "/$1"
-      }
-    ]
-  }
+        {
+          "source": "/projects.html/(membranas|campaignspending|xwdstats|forthem)(/.*)?",
+          "destination": "/projects.html"
+        },
+        {
+          "source": "/projects.html/(.*)",
+          "destination": "/$1"
+        },
+        {
+          "source": "/(.*)",
+          "destination": "/$1"
+        }
+      ]
+}
