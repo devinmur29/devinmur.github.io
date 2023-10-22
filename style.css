@@ -66,7 +66,7 @@ nav div {
     background-image: url('./rive_inner.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 1500px;
+    height: 1800px;
     position: relative;
 
 }
@@ -85,15 +85,14 @@ nav div {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: stretch;
+    align-items: center;
     flex-grow: 1;
     max-width: 100%;
 }
 
 .intro {
-    margin: 2vh;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    background-color: #e0f9ff;
+    margin-top: 2vw;
     border: 0.25vh;
     border-style: solid;
     display: flex;
@@ -173,7 +172,7 @@ figcaption {
 .window-container{
     height: 50vmin;
     width: calc(30%);
-    background-color: #d3d3d3;
+    background-color: #e0f9ff;
     flex-direction: column;
     justify-content: top;
     display: flex;

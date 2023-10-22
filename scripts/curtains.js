@@ -25,12 +25,10 @@ class Curtains extends React.Component {
     }
 
     startEventHandler = () => {
-        console.log('mouseenter')
         this.startAnimations(this.startAnimRefs.current)
     }
 
     endEventHandler = () => {
-        console.log('mouseleave')
         this.startAnimations(this.endAnimRefs.current)
     }
 
