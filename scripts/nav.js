@@ -11,7 +11,6 @@ class NavBar extends React.Component {
         <nav>  
         <div>
             <li><a href="./../index.html">home</a></li>
-            <li><a href="./../blogs.html">blogs</a></li>
         </div>      
     </nav>
     );
