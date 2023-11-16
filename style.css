@@ -176,6 +176,8 @@ figcaption {
     flex-direction: column;
     justify-content: top;
     display: flex;
+    border: 0.25vh;
+    border-style: solid;
 }
 
 .top-window{
