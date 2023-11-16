@@ -1,16 +1,4 @@
 {
     "rewrites": [
-        {
-          "source": "/index.html/(membranas|campaignspending|xwdstats|forthem|kaboom)(/.*)?",
-          "destination": "/index.html"
-        },
-        {
-          "source": "/index.html/(.*)",
-          "destination": "/$1"
-        },
-        {
-          "source": "/(.*)",
-          "destination": "/$1"
-        }
       ]
 }
