@@ -10,7 +10,7 @@ class NavBar extends React.Component {
     return (
         <nav>  
         <div>
-            <li><a href="./index.html">home</a></li>
+            <li><a href="/">home</a></li>
         </div>      
     </nav>
     );
