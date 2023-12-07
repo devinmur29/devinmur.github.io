@@ -1,6 +1,5 @@
 'use strict';
 import React from "react";
-import { Link } from 'react-router-dom'
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -11,7 +10,7 @@ class NavBar extends React.Component {
     return (
         <nav>  
         <div>
-            <li><Link to="/">Home</Link></li>
+          <li><a href="/">Home</a></li>
         </div>      
     </nav>
     );
