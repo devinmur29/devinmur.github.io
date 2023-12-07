@@ -11,7 +11,7 @@ class NavBar extends React.Component {
     return (
         <nav>  
         <div>
-            <li><a><Link to="/">Home</Link></a></li>
+            <li><Link to="/">Home</Link></li>
         </div>      
     </nav>
     );
