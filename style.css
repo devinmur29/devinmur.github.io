@@ -10,21 +10,23 @@ body{
     height: 100%;
 }
 #logo {
-    font-size: 30px;
-    padding-left: 10px;
+    font-size: 20px;
+    padding-left: 9vw;
     vertical-align: middle;
 }
 header {
     background: rgb(224, 249, 255);
-    padding-top: 50px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-left: 14vw;
+    margin-right: 14vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
 }
 nav{
     background-color: rgb(224, 249, 255);
     display: flex;
     align-items: center;
-
 }
 nav div li a {
     font-size: 20px;
@@ -181,10 +183,8 @@ figcaption {
 }
 
 .top-window{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    overflow: hidden;
     height: 100%;
     width: 100%;
 }
@@ -287,23 +287,23 @@ figcaption {
       z-index: 3;
 
   }
+  .top-window > img {
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+  }
   .projimg{
-      position: absolute;
+      object-fit: contain;
       height: 20vmin;
       width: 25vmin;
       display: flex;
       justify-content: center;
       z-index: 1;
-      top: 50%; /* Center vertically by moving 50% from the top */
-      left: 50%; /* Center horizontally by moving 50% from the left */
-      transform: translate(-50%, -75%);
   }
-  .projimg>img{
-    position: absolute;
-    object-fit: contain;
-    height: 95%;
-    width: 90%;
-}
 
 .actualSvg{
     z-index: 2;
@@ -386,6 +386,12 @@ figcaption {
     text-align: center;
 }
 
+#navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2vw;
+}
   @media screen and (max-width: 500px) {
     .river{
         display: none;

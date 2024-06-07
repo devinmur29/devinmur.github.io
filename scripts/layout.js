@@ -12,15 +12,6 @@ class Layout extends React.Component {
     render() {
         return (
             <div className="main">
-                <div className="river">
-                    <div className="boat">
-                        <div className="inner-boat">
-                            <img id="boatpng" src="./boat.png" />
-                        </div>
-                        <div className="below-boat">
-                        </div>
-                    </div>
-                </div>
                 <div className="articles">
                     <div className="intro">
                         <div>
@@ -32,10 +23,8 @@ class Layout extends React.Component {
                         </div>
                         <div id="introTextContainer">
                             <div id="introText">
-                                Hello folks! I'm Devin, creator and maintainer of Devin Dot Com (at least the one where you are now).
-                                Embracing the <a href="https://maggieappleton.com/garden-history">digital garden</a> ethos, this site was created with the intention of being
-                                a space that I grow and cultivate organically over time. It's got a portfolio and blogs and a boat, but in time I anticipate it'll have stuff that
-                                might need a bit more digging to get to.
+                                Hello! I'm Devin, a current M.Eng student in Electrical Engineering and Computer Science at MIT. I am interested in mutlimodal sensing and signal processing for intelligent wearable systems.
+                                On this page you can find past projects I've worked on, as well as my current resume. Feel free to contact me at devinmur@mit.edu about anything you find here!
                             </div>
                         </div>
                     </div>
@@ -45,7 +34,7 @@ class Layout extends React.Component {
                                 <div className="projName"><Link to={`/${project.id}`}>{project.title}</Link></div>
                                 <div className="projDesc">{project.desc}</div>
                                 <div className="top-window">
-                                    <Curtains projid={project.id}></Curtains>
+                                    <img src={`./${project.id}/${project.id}.png`} alt="project picture" />
                                 </div>
                             </div>)
                         }
