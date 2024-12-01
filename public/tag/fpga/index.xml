@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FPGA | Devin Murphy</title><link>https://example.com/tag/fpga/</link><atom:link href="https://example.com/tag/fpga/index.xml" rel="self" type="application/rss+xml"/><description>FPGA</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hua6395a99da531b2e70e32e5401dc9674_120945_512x512_fill_lanczos_center_3.png</url><title>FPGA</title><link>https://example.com/tag/fpga/</link></image><item><title>Kaboom</title><link>https://example.com/project/kaboom/</link><pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate><guid>https://example.com/project/kaboom/</guid><description>&lt;p>Kaboom is an FPGA based multiplayer game based off of the game &lt;a href="https://keeptalkinggame.com/" target="_blank" rel="noopener">&amp;ldquo;Keep Talking an Nobody Explodes&amp;rdquo;&lt;/a>. It was developed in tandem with Emma Griffiths and Willie Zhu as a final project for the class &lt;a href="https://keeptalkinggame.com/" target="_blank" rel="noopener">6.111&lt;/a>, Introductory Digital Systems Laboratory, which I took during my Junior year at MIT.&lt;/p>
+&lt;p>Inspired by the techy aesthetic of the FPGA, the objective of this game is to defuse a bomb before time runs out.
+There are various modules that must be disarmed, the order of which appear in a
+predetermined, random order and one after another on the screen. All minigame
+modules also have elements of randomness. When a Defuser gets a strike, they will have to
+replay the module they are currently on.&lt;/p>
+&lt;figure>
+&lt;img src="fingerprint_game.png" alt="Kaboom Fingerprint Minigame">
+&lt;figcaption>Fingerprint scan minigame that used the onboard temperature sensor&lt;/figcaption>
+&lt;/figure>
+&lt;p>We decided to add two modes to
+our game, both single player and multiplayer. In single player you race against the clock using
+the manual to defuse the bomb, and in multiplayer you race against another player to defuse
+the bomb faster using an esp32 module and websocket to connect the boards. The other
+player’s status will be displayed on your screen in multiplayer mode. If they are all disarmed before time runs out, then the bomb is defused.
+There is also a strike system. If you get three strikes (fail modules three times), then you will
+lose. The game is accompanied by a bomb defusal manual, which is purposely written in a
+non-straight forward manner to make defusing the bomb a bit more difficult.&lt;/p>
+&lt;object data="kaboom_manual.pdf" type="application/pdf" width="75%" height="500px">
+&lt;p>Unable to display PDF file. &lt;a href="kaboom_manual.pdf">Download&lt;/a> instead.&lt;/p>
+&lt;/object>
+&lt;p>The minigames engaged with several sensors on the FPGA, including a microphone, temperature sensor, and accelerometer. Additionally, our system engaged with a speaker and VGA output (for the graphics). Here is a block diagram of all the components of the system:&lt;/p>
+&lt;figure>
+&lt;img src="block_diagram.png" alt="Kaboom arhcitecture block diagram">
+&lt;figcaption>Block diagram of the different modules making up the Kaboom game architecture&lt;/figcaption>
+&lt;/figure>
+&lt;p>I handled the design and implementation of much of the overarching game logic using Finite State Machines, as well as graphics and peripheral device interfacing for several of the minigames. Overall, this project gave me a deeper understanding of what hardware is doing when rendering graphics, which was pretty neat! Here&amp;rsquo;s the video we put together for the project:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://player.vimeo.com/video/876750178" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen>&lt;/iframe>
+&lt;/div>
+&lt;p>You can find out more about the implementation details for the game in the report linked at the top of the article!&lt;/p></description></item></channel></rss>

@@ -62,9 +62,7 @@ projects:
 
 Grateful for the opportunity to share my work on resistive tactile sensing as part of the 2024 Cambridge Science Festival!
 
-<!-- {{< gallery album="csf2024" >}} -->
-
-Image Gallery:
+{{< gallery album="csf2024" >}}
 
 <!-- {{% callout note %}}
 Click on the **Slides** button above to view the built-in slides feature.

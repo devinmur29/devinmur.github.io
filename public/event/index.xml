@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recent &amp; Upcoming Talks | Devin Murphy</title><link>https://example.com/event/</link><atom:link href="https://example.com/event/index.xml" rel="self" type="application/rss+xml"/><description>Recent &amp; Upcoming Talks</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 28 Sep 2024 19:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hua6395a99da531b2e70e32e5401dc9674_120945_512x512_fill_lanczos_center_3.png</url><title>Recent &amp; Upcoming Talks</title><link>https://example.com/event/</link></image><item><title>Electric Skin: Wearable Tech and the Future of Fashion</title><link>https://example.com/talk/electric-skin-wearable-tech-and-the-future-of-fashion/</link><pubDate>Sat, 28 Sep 2024 19:00:00 +0000</pubDate><guid>https://example.com/talk/electric-skin-wearable-tech-and-the-future-of-fashion/</guid><description>&lt;p>Grateful for the opportunity to share my work on resistive tactile sensing as part of the 2024 Cambridge Science Festival!&lt;/p>
+&lt;div class="gallery-grid">
+&lt;div class="gallery-item gallery-item--medium">
+&lt;a data-fancybox="gallery-csf2024" href="https://example.com/media/albums/csf2024/092824_CambridgeScienceFestival_oliviamoonphotography-126.jpg" >
+&lt;img src="https://example.com/media/albums/csf2024/_hud2a3dd6e2d1bc63c3ea6e1af5c8037be_8772354_676d46921932697fb815b6569ed97309.webp" loading="lazy" alt="092824_CambridgeScienceFestival_oliviamoonphotography-126.jpg" width="750" height="500">
+&lt;/a>
+&lt;/div>
+&lt;div class="gallery-item gallery-item--medium">
+&lt;a data-fancybox="gallery-csf2024" href="https://example.com/media/albums/csf2024/20240928_cambridgesciencefestival_mjc_3438.jpg" >
+&lt;img src="https://example.com/media/albums/csf2024/20240928_cambridgesciencefestival_mjc_3438_hu3d03a01dcc18bc5be0e67db3d8d209a6_2363859_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="20240928_cambridgesciencefestival_mjc_3438.jpg" width="750" height="500">
+&lt;/a>
+&lt;/div>
+&lt;div class="gallery-item gallery-item--medium">
+&lt;a data-fancybox="gallery-csf2024" href="https://example.com/media/albums/csf2024/20240928_cambridgesciencefestival_mjc_4086.jpg" >
+&lt;img src="https://example.com/media/albums/csf2024/20240928_cambridgesciencefestival_mjc_4086_hu3d03a01dcc18bc5be0e67db3d8d209a6_1040021_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="20240928_cambridgesciencefestival_mjc_4086.jpg" width="750" height="500">
+&lt;/a>
+&lt;/div>
+&lt;div class="gallery-item gallery-item--medium">
+&lt;a data-fancybox="gallery-csf2024" href="https://example.com/media/albums/csf2024/IMG_9930.JPG" >
+&lt;img src="https://example.com/media/albums/csf2024/IMG_9930_hud8e9d17f8ad769e88ebe8fffec3a13bb_2886616_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="IMG_9930.JPG" width="750" height="563">
+&lt;/a>
+&lt;/div>
+&lt;div class="gallery-item gallery-item--medium">
+&lt;a data-fancybox="gallery-csf2024" href="https://example.com/media/albums/csf2024/IMG_9931.JPG" >
+&lt;img src="https://example.com/media/albums/csf2024/IMG_9931_huce5293b30379504c5f0c3f7ae4d21cc5_2523121_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="IMG_9931.JPG" width="750" height="563">
+&lt;/a>
+&lt;/div>
+&lt;div class="gallery-item gallery-item--medium">
+&lt;a data-fancybox="gallery-csf2024" href="https://example.com/media/albums/csf2024/newImg.gif" >
+&lt;img src="https://example.com/media/albums/csf2024/newImg_hu1ebb31297f51a9643fc0b7f6609126b9_7317170_750x750_fit_q75_h2_lanczos_1.webp" loading="lazy" alt="newImg.gif" width="600" height="338">
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;!--
+&lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+Slides can be added in a few ways:
+- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
+Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page. --></description></item></channel></rss>
