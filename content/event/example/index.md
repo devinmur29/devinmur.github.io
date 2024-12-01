@@ -64,6 +64,8 @@ Grateful for the opportunity to share my work on resistive tactile sensing as pa
 
 <!-- {{< gallery album="csf2024" >}} -->
 
+Image Gallery:
+
 <!-- {{% callout note %}}
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /callout %}}
