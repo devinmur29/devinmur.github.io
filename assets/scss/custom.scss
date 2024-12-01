@@ -1,0 +1,45 @@
+.home-section {
+  background: #fdefb8;
+}
+
+.home-section:nth-of-type(even) {
+  background: #f5e4a3;
+}
+
+.navbar {
+  background: #4e1274;
+}
+
+.page-footer {
+  display: none;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  font-weight: bold !important;
+  color: #aebfea !important;
+}
+
+a:hover,
+a:focus {
+  color: #aebfea;
+}
+
+a {
+  color: #7a91c9;
+}
+
+#navbar-main .main-menu-item ul li .nav-link {
+  color: #aebfea;
+}
+
+.navbar-light .navbar-brand {
+  color: #aebfea;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #aebfea;
+}
+
+a.nav-link:hover {
+  color: #a8f238;
+}
